@@ -1,26 +1,26 @@
-import { Hero } from '../components';
 import ScrollToTop from "react-scroll-to-top";
+import ato from '../assets/ato.png';
+import atp from '../assets/atp.png';
+import ericsson from '../assets/ericsson.png';
+import garudafood from '../assets/garudafood.png';
+import huawei from '../assets/huawei.png';
+import indosat from '../assets/indosat.png';
+import melanie from '../assets/melanie.jpeg';
+import nokia from '../assets/nokia.png';
+import smartfren from '../assets/smartfren.png';
+import tata from '../assets/tata.png';
+import tokopedia from '../assets/tokopedia.png';
+import v1 from '../assets/v1.gif';
+import v2 from '../assets/v2.gif';
+import v3 from '../assets/v3.gif';
+import v4 from '../assets/v4.gif';
+import vera from '../assets/vera.png';
+import xl from '../assets/xl.png';
+import { Hero } from '../components';
 
-import atp from '../assets/atp.png'
-import ato from '../assets/ato.png'
 
-import v1 from '../assets/v1.gif'
-import v2 from '../assets/v2.gif'
-import v3 from '../assets/v3.gif'
-import v4 from '../assets/v4.gif'
 
-import melanie from '../assets/melanie.jpeg'
-import tata from '../assets/tata.png'
-import vera from '../assets/vera.png'
 
-import ericsson from '../assets/ericsson.png'
-import garudafood from '../assets/garudafood.png'
-import xl from '../assets/xl.png'
-import tokopedia from '../assets/tokopedia.png'
-import smartfren from '../assets/smartfren.png'
-import nokia from '../assets/nokia.png'
-import indosat from '../assets/indosat.png'
-import huawei from '../assets/huawei.png'
 
 const Home = () => {
   return (
@@ -31,7 +31,7 @@ const Home = () => {
         viewBox="0 0 16 16"
         svgPath="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
       />
-      
+
       <section id="partners">
         <div className="container">
           <div className="section-header">
@@ -439,8 +439,64 @@ const Home = () => {
               position: "relative",
               paddingBottom: "20px"
             }}>Why choose enetwoq</h2>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </h4>
+
+            <div className="row">
+              <div className="col" style={{paddingBottom: "40px"}}>
+                <ul>
+                  <ol style={{
+                    paddingBottom: "10px",
+                    fontSize: "20px",
+                    paddingRight: "4px",
+                  }}>
+                    <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> Facilitators are experts in their fields with more than 15 years of experience and certified
+                  </ol>
+                  
+                  <ol style={{
+                    paddingBottom: "10px",
+                    fontSize: "20px",
+                    paddingRight: "4px",
+                  }}>
+                    <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> Training method using study case, group discussion, template, presentation and role play and game simulation
+                  </ol>
+
+                  <ol style={{
+                    paddingBottom: "10px",
+                    fontSize: "20px",
+                    paddingRight: "4px",
+                  }}>
+                    <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> Free consultation after class and Whatsapp group
+                  </ol>
+                  <ol style={{
+                    paddingBottom: "10px",
+                    fontSize: "20px",
+                    paddingRight: "4px",
+                  }}>
+                    <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> Free all events enetwoq for alumni</ol>
+                  <ol style={{
+                    paddingBottom: "10px",
+                    fontSize: "20px",
+                    paddingRight: "4px",
+                  }}>
+                    <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> Partnership with Authorized Training Partner of PMI, Partnership with PMI Indonesia Chapter and
+                    Accredited Training Organization Peoplecert/axelos</ol>
+
+                  <ol style={{
+                    paddingBottom: "10px",
+                    fontSize: "20px",
+                    paddingRight: "4px",
+                  }}>
+                    <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> 94% exam pass rate</ol>
+                  <ol style={{
+                    paddingBottom: "10px",
+                    fontSize: "20px",
+                    paddingRight: "4px",
+                  }}>
+                    <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> Join with eNetwoq biggest community</ol>
+                </ul>
+              </div>
+            </div>
           </div>
+
           <div className="row">
             <div className="col">
               <div className="row">
@@ -484,7 +540,7 @@ const Home = () => {
           </div>
           <hr />
         </div>
-      </section>
+      </section >
 
       <section id="certifications">
         <div className="container">
@@ -645,7 +701,7 @@ const Home = () => {
           <hr />
         </div>
       </section>
-    </div>
+    </div >
   )
 }
 
