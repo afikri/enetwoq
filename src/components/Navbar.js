@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -24,8 +25,11 @@ const Navbar = () => {
 
         <nav id="navbar" className="navbar">
           <ul>
-            <li><a className="nav-link scrollto " href="#home">Home</a></li>
-            <li class="dropdown"><a href="#"><span>Training</span> <i class="bi bi-chevron-down"></i></a>
+            <li>
+              <Link className="nav-link scrollto" to="/">Home</Link>
+            </li>
+            <li class="dropdown">
+              <a href="#"><span>Training</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li class="dropdown"><a href="#"><span>Project Management</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
@@ -47,9 +51,20 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li><a className="nav-link scrollto" href="#services">Services</a></li>
-            <li><a className="nav-link scrollto" href="#events">Events</a></li>
-            <li><a className="nav-link scrollto" href="#joinus">Join Us</a></li>
+            <li>
+              <Link className="nav-link scrollto" to="services">Services</Link>
+            </li>
+            <li>
+              <Link className="nav-link scrollto" to="events">Events</Link>
+            </li>
+            <li>
+              <Link className="nav-link scrollto" to="joinus">Join Us</Link>
+            </li>
+
+
+
+
+
             <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="#">Our Value </a></li>
