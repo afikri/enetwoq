@@ -153,7 +153,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
@@ -188,7 +188,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
@@ -223,7 +223,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
@@ -292,7 +292,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
@@ -326,7 +326,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
@@ -360,7 +360,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
@@ -394,7 +394,7 @@ const Home = () => {
                 <div className="d-flex justify-content-between">
                   <div className="d-flex flex-row align-items-center">
                     <div className="ms-2 c-details">
-                      <button type="button" class="btn btn-warning">Advanced </button>
+                      <button type="button" className="btn btn-warning">Advanced </button>
                     </div>
                   </div>
                 </div>
