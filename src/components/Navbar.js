@@ -69,21 +69,18 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                <li className="dropdown"><a href="#"><span>Agile and Scrum</span> <i class="bi bi-chevron-right"></i></a>
+                <li className="dropdown"><a href="#"><span>Agile and Scrum</span> <i className="bi bi-chevron-right"></i></a>
                   <ul>
-                    <li><a href="#">Agile Certificate Practitioner (PMI-ACP<sup>&reg;</sup>)</a></li>
-                    <li><a href="#">Prince2 Agile<sup>&reg;</sup> Foundation</a></li>
-                    <li><a href="#">Prince2 Agile<sup>&reg;</sup> Practitioner</a></li>
+                    <li>
+                      <Link to="agile-certificate-practitioner">Agile Certificate Practitioner (PMI-ACP<sup>&reg;</sup>)</Link></li>
+                    <li>
+                      <Link to="prince2-agile-foundation">Prince2 Agile<sup>&reg;</sup> Foundation</Link></li>
+                    <li>
+                      <Link to="prince2-agile-practitioner">Prince2 Agile<sup>&reg;</sup> Practitioner</Link></li>
                   </ul>
                 </li>
               </ul>
             </li>
-
-
-
-
-
-
 
             <li>
               <Link className="nav-link scrollto" to="services">Services</Link>
@@ -96,15 +93,16 @@ const Navbar = () => {
             </li>
 
 
-
-
-
-            <li className="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            <li className="dropdown">
+              <Link to="/">
+                <span>About Us</span>
+                <i className="bi bi-chevron-down"></i>
+              </Link>
               <ul>
-                <li><a href="#">Our Value </a></li>
-                <li><a href="#">Milestone</a></li>
-                <li><a href="#">Our Policy</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><Link to="our-values">Our Values </Link></li>
+                <li><Link to="milestones">Milestones</Link></li>
+                <li><Link to="our-policy">Our Policy</Link></li>
+                <li><Link to="contact-us">Contact Us</Link></li>
               </ul>
             </li>
           </ul>
