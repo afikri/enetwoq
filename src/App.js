@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
-import { Footer, MyScrollToTop, Navbar, Whatsapp } from './components/';
+import { Footer, ScrollToTop, Navbar, Whatsapp } from './components/';
 
 import {
   Events,
@@ -28,7 +28,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <MyScrollToTop /> 
+      <ScrollToTop /> 
       <Whatsapp/>
       <Routes>
         <Route path="events" element={<Events />} />

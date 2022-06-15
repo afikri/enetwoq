@@ -1,16 +1,40 @@
-import React from 'react'
-import ScrollToTop from "react-scroll-to-top";
+import { useEffect, useState } from 'react';
 
-const MyScrollToTop = () => {
-    return (
-        <ScrollToTop
-            smooth
-            viewBox="0 0 16 16"
-            svgPath="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
-        />
-    )
+const ScrollToTop = () => {
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleClick = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  return (
+    <div>
+      {
+        isVisible && (
+          <div className="scroll-style-float" onClick={handleClick}>
+            <i className="fa fa-arrow-up scroll-float"></i>
+          </div>
+        )}
+    </div>
+  );
 }
 
-export default MyScrollToTop
+export default ScrollToTop;
+
+
+
 
 

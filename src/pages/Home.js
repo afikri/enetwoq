@@ -16,14 +16,12 @@ import v4 from '../assets/v4.gif';
 import vera from '../assets/vera.png';
 import xl from '../assets/xl.png';
 import { Hero } from '../components';
+import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
     <div>
       <Hero />
-
-
-
       <section id="partners">
         <div className="container">
           <div className="section-header">
@@ -45,7 +43,7 @@ const Home = () => {
                 <div className="icon">
                   <img src={atp} style={{ width: "90px", height: "auto" }} alt="logo" />
                 </div>
-                <h4 className="title"><a href="">ATP Project Management Institute (PMI)</a></h4>
+                <h4 className="title"><Link to="/">ATP Project Management Institute (PMI)</Link></h4>
                 <p className="description">
                   Project Management Institute is the world's leading not-for-profit professional membership association for the project, program and portfolio management profession.
                 </p>
@@ -57,7 +55,7 @@ const Home = () => {
                 <div className="icon">
                   <img src={ato} style={{ width: "180px", height: "auto" }} alt="logo" />
                 </div>
-                <h4 className="title"><a href="">ATO PeopleCert</a></h4>
+                <h4 className="title"><Link to="/">ATO PeopleCert</Link></h4>
                 <p className="description" >
                   PeopleCert on behalf of Axelos. Axelos is Global Best Practice in project, programme and portfolio management, IT service management and cyber resilience.
                 </p>
