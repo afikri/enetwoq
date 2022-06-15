@@ -1,15 +1,10 @@
 import React from 'react';
-import ScrollToTop from "react-scroll-to-top";
+import MyScrollToTop from '../../components/ScrollToTop'
 
 const PMP = () => {
   return (
     <div>
-
-      <ScrollToTop
-        smooth
-        viewBox="0 0 16 16"
-        svgPath="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
-      />
+      <MyScrollToTop />
       <section id="partners" style={{
         backgroundImage: "linear-gradient(110deg, #171F32 47%, #171F3229 100%)",
         height: "60vh",
@@ -250,6 +245,7 @@ const PMP = () => {
                     <div className="">Training + Mentoring + Exam Simulations</div>
                   </div>
                   <div class="card-body" style={{ textAlign: "center", background: "#F7F7F7" }}>
+                    <button className='btn btn-success'>Popular</button>
                     <ul style={{ listStyle: "none" }}>
                       <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                         <span className="list-name">Lifetime access to high-quality eLearning content</span>
@@ -452,7 +448,7 @@ const PMP = () => {
                     <h5 className="heading"><b>Learn from experts active in their field</b></h5>
                     <div className="mt-2">
                       <div className="row">
-                        <ul style={{listStyle:"none"}}>
+                        <ul style={{ listStyle: "none" }}>
                           <li>
                             <span className="list-name">Leading practitioners who bring current best practices and case studies to sessions that fit into your work schedule.</span>
                           </li>
@@ -469,7 +465,7 @@ const PMP = () => {
                     <h5 className="heading"><b>Learn by working on real-world problems</b></h5>
                     <div className="mt-2">
                       <div className="row">
-                      <ul style={{listStyle:"none"}}>
+                        <ul style={{ listStyle: "none" }}>
                           <li>
                             <span className="list-name">Cutting-edge curriculum designed in guidance with industry and academia to develop job-ready skills </span>
                           </li>
@@ -486,7 +482,7 @@ const PMP = () => {
                     <h5 className="heading"><b>Structured guidance ensuring learning never stops</b></h5>
                     <div className="mt-2">
                       <div className="row">
-                      <ul style={{listStyle:"none"}}>
+                        <ul style={{ listStyle: "none" }}>
                           <li>
                             <span className="list-name">24×7 Learning support from mentors and a community of like-minded peers to resolve any conceptual doubts  </span>
                           </li>
