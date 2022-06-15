@@ -3,16 +3,17 @@ import { Link } from "react-router-dom"
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
-  const handleClick = (e) => {
-    e.preventDefault()
-    const target = e.target.getAttribute('href');
-    const location = document.querySelector(target).offsetTop;
+  // const handleClick = (e) => {
+  //   e.preventDefault()
+  //   const target = e.target.getAttribute('href');
+  //   const location = document.querySelector(target).offsetTop;
 
-    window.scrollTo({
-      left: 0,
-      top: location - 64
-    });
-  }
+  //   window.scrollTo({
+  //     left: 0,
+  //     top: location - 64
+  //   });
+  // }
+
   return (
     <header id="header" className="d-flex align-items-center sticky">
       <div className="container d-flex justify-content-between">
@@ -69,7 +70,8 @@ const Navbar = () => {
                   </ul>
                 </li>
 
-                <li className="dropdown"><a href="#"><span>Agile and Scrum</span> <i className="bi bi-chevron-right"></i></a>
+                <li className="dropdown">
+                  <Link to="/"><span>Agile and Scrum</span> <i className="bi bi-chevron-right"></i></Link>
                   <ul>
                     <li>
                       <Link to="agile-certificate-practitioner">Agile Certificate Practitioner (PMI-ACP<sup>&reg;</sup>)</Link></li>

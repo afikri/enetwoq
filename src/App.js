@@ -14,7 +14,8 @@ import {
   PMP, PMIRMP, Prince2Foundation, Prince2Practitioner, ITIL4Foundation,
   AgileCertificatePractitioner,
   Prince2AgileFoundation,
-  Prince2AgilePractitioner
+  Prince2AgilePractitioner,
+  AgileFoundation
 } from './pages/training'
 
 import {
@@ -38,13 +39,10 @@ const App = () => {
         <Route path="risk-management-professional" element={<PMIRMP />} />
         <Route path="prince2-foundation" element={<Prince2Foundation />} />
         <Route path="prince2-practitioner" element={<Prince2Practitioner />} />
-
         <Route path="itil-4-foundation" element={<ITIL4Foundation />} />
-
         <Route path="agile-certificate-practitioner" element={<AgileCertificatePractitioner />} />
         <Route path="prince2-agile-foundation" element={<Prince2AgileFoundation />} />
         <Route path="prince2-agile-practitioner" element={<Prince2AgilePractitioner />} />
-
         <Route path="our-values" element={<OurValues />} />
         <Route path="milestones" element={<Milestones />} />
         <Route path="our-policy" element={<OurPolicy />} />

@@ -4,7 +4,7 @@ import Prince2Foundation from './Prince2Foundation'
 import Prince2Practitioner from './Prince2Practitioner'
 import ITIL4Foundation from './ITIL4Foundation'
 import AgileCertificatePractitioner from './AgileCertificatePractitioner'
-import Prince2AgileFoundation from "./Prince2Foundation"
+import Prince2AgileFoundation from "./Prince2AgileFoundation"
 import Prince2AgilePractitioner from "./Prince2AgilePractitioner"
 
 

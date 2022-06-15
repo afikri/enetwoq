@@ -267,9 +267,9 @@ const PMP = () => {
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="card mb-3 h-100">
-                  <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
+              <div className="col-md-4">
+                <div className="card mb-3 h-100">
+                  <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
                     <h4>PMP® Training</h4>
                     <div className="">Training + E-Learning + Quizzes</div>
                   </div>

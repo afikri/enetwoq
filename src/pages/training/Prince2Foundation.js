@@ -171,8 +171,6 @@ const Prince2Foundation = () => {
         </div>
       </section >
 
-
-
       <section id="certifications">
         <div className="container">
           <div className="section-header">
@@ -186,7 +184,7 @@ const Prince2Foundation = () => {
             }}>PRINCE2® Foundation Training</h2>
             <div className="col-lg-12 content" style={{ textAlign: "justify" }}>
               <p>
-                PRINCE2 training courses are run by accredited training organizations, in a variety of formats. eNetwoQ is part of ATO in Indonesia. The objective of this course is to provide the theoretical knowledge of how to plan, manage and deliver projects from start to finish. The PRINCE2 Foundation qualification is intended for project managers and aspiring project managers. The course covers widely used project management method that navigates you through all the essentials for running a successful project.
+              PRINCE2 training courses are run by accredited training organizations, in a variety of formats. eNetwoQ is part of ATO in Indonesia. The objective of this course is to provide a overview of Agile concepts, frameworks, and techniques. It also showcases PRINCE2 methods and processes. You’ll learn to establish a tailored governance framework within the Agile environment and focus on its management and delivery.
               </p>
 
               <div>
@@ -307,13 +305,13 @@ const Prince2Foundation = () => {
 
               <h4 style={{ fontFamily: "Poppins", fontWeight: "900", color: "#54595F" }}>Our PRINCE2® Foundation Products</h4>
               <div className="row">
-                <div class="col-md-6">
-                  <div class="card mb-3 h-100">
-                    <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
+                <div className="col-md-6">
+                  <div className="card mb-3 h-100">
+                    <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
                       <h4>PRINCE2® Foundation Full Package</h4>
                       <div>Training + Exam</div>
                     </div>
-                    <div class="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
+                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Include Exam</span>
@@ -339,13 +337,13 @@ const Prince2Foundation = () => {
                   </div>
                 </div>
 
-                <div class="col-md-6">
-                  <div class="card mb-3 h-100">
-                    <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
+                <div className="col-md-6">
+                  <div className="card mb-3 h-100">
+                    <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
                       <h4>PRINCE2® Foundation Corporate Training</h4>
                       <div>Customized to your team’s need</div>
                     </div>
-                    <div class="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
+                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Customized Online/Offline</span>
