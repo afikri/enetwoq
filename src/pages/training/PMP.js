@@ -1,10 +1,8 @@
 import React from 'react';
-import MyScrollToTop from '../../components/ScrollToTop'
 
 const PMP = () => {
   return (
     <div>
-      <MyScrollToTop />
       <section id="partners" style={{
         backgroundImage: "linear-gradient(110deg, #171F32 47%, #171F3229 100%)",
         height: "60vh",

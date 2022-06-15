@@ -473,7 +473,7 @@ h6 {
  * Partners Section
  */
 #certifications {
-  padding:35px 0;
+  padding: 35px 0;
 }
 
 #certifications .box {
@@ -536,15 +536,16 @@ h6 {
   top: 40px;
   /* for 45 deg rotation */
   -webkit-transform: rotate(-45deg);
-     -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   /* for creating shadow */
   -webkit-box-shadow: 0 0 10px #888;
-     -moz-box-shadow: 0 0 10px #888;
-          box-shadow: 0 0 10px #888;
+  -moz-box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #888;
 }
+
 .ribbon a {
   border: 1px solid #faa;
   color: #fff;
@@ -556,4 +557,24 @@ h6 {
   text-decoration: none;
   /* for creating shadow */
   text-shadow: 0 0 5px #444;
+}
+
+
+.wa-style-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 80px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.wa-float {
+  margin-top: 16px;
 }

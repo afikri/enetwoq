@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
-import { Footer, Navbar } from './components/';
+import { Footer, MyScrollToTop, Navbar, Whatsapp } from './components/';
 
 import {
   Events,
@@ -15,7 +15,6 @@ import {
   AgileCertificatePractitioner,
   Prince2AgileFoundation,
   Prince2AgilePractitioner,
-  AgileFoundation
 } from './pages/training'
 
 import {
@@ -29,6 +28,8 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <MyScrollToTop /> 
+      <Whatsapp/>
       <Routes>
         <Route path="events" element={<Events />} />
         <Route path="/" element={<Home />} />
