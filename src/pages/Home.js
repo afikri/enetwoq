@@ -228,7 +228,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="mt-5">
-                  <h3 className="heading"><b>PRINCE2<sup>&reg;</sup>&nbsp;Foundation</b></h3>
+                  <h3 className="heading"><b>PRINCE2<sup>&reg;</sup>&nbsp;Practitioner</b></h3>
                   <div className="mt-2">
                     <div className="row">
                       <div className="col-sm">
@@ -441,7 +441,7 @@ const Home = () => {
             }}>Why choose enetwoq</h2>
 
             <div className="row">
-              <div className="col" style={{paddingBottom: "40px"}}>
+              <div className="col" style={{ paddingBottom: "40px" }}>
                 <ul>
                   <ol style={{
                     paddingBottom: "10px",
@@ -450,7 +450,7 @@ const Home = () => {
                   }}>
                     <i className="bi bi-check-circle" style={{ color: "#50d8af" }}></i> Facilitators are experts in their fields with more than 15 years of experience and certified
                   </ol>
-                  
+
                   <ol style={{
                     paddingBottom: "10px",
                     fontSize: "20px",
