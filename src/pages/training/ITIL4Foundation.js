@@ -25,7 +25,7 @@ const ITIL4Foundation = () => {
             <div style={{ width: "800px" }}>
               <div className="col-sm">
                 <div className="mt-5 d-flex align-items-center" style={{ justifyContent: "space-between" }}>
-                  ITL® Foundation
+                  ITIL® Foundation
                   <div className="small-ratings" >
                     <i className="fa fa-star rating-color"></i>
                     <i className="fa fa-star rating-color"></i>

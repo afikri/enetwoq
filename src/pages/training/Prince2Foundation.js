@@ -21,11 +21,11 @@ const Prince2Foundation = () => {
             color: "#FFF"
           }}>
 
-            <h1 style={{ fontFamily: "Open Sans", }}><strong>ITIL® 4 Foundation</strong></h1><br />
+            <h1 style={{ fontFamily: "Open Sans", }}><strong>PRINCE2® Foundation Certification Training Course</strong></h1><br />
             <div style={{ width: "800px" }}>
               <div className="col-sm">
                 <div className="mt-5 d-flex align-items-center" style={{ justifyContent: "space-between" }}>
-                  ITL® Foundation
+                  PRINCE2® Foundation
                   <div className="small-ratings" >
                     <i className="fa fa-star rating-color"></i>
                     <i className="fa fa-star rating-color"></i>
@@ -41,13 +41,15 @@ const Prince2Foundation = () => {
               </div>
               <br />
               <div style={{ textAlign: "justify" }}>
-
-                ITL4 Foundation is the entry level to TIL 4 and equips candidates with a basic understanding of the ITIL framework.
-                ITIL 4 Foundation is the most widely acknowledged entry-level ITIL certification available for IT professionals.
+                <p>
+                  Learn and understand the PRINCE2 method to be able to work effectively within an PRINCE2 supporting environment. Equip yourself with a highly-demanded certification in Project Management.
+                </p>
               </div>
               <div style={{ paddingTop: "25px" }}>
-                ITIL® is a registered trade mark of AXELOS Limited, used under permission of AXELOS Limited, all rights reserved.
-                The Swirl logo™ is a trade mark of AXELOS Limited, used under permission of AXELOS Limited. All rights reserved.
+                <p>
+                  PRINCE2® is a registered trade mark of AXELOS Limited, used under permission of AXELOS Limited, all rights reserved. <br />
+                  The Swirl logo™ is a trade mark of AXELOS Limited, used under permission of AXELOS Limited. All rights reserved.
+                </p>
               </div>
             </div>
           </div>
@@ -69,7 +71,9 @@ const Prince2Foundation = () => {
             <div className="col-md-12 content" >
               <div className="col-sm" style={{ paddingBottom: "10px" }}>
                 <div style={{ textAlign: "justify", display: 'grid', gridTemplateColumns: "100%" }}>
-                  This newest training for the ITIL framework is designed to introduce learners to the management of modern IT-enabled services, including key concepts and common language used in the ITIL services lifecycle, how lifecycle stages are linked, processes involved, and best practices for improving the quality of IT services across the IT organization.
+                  <p>
+                    The PRINCE2® Foundation Certification is suitable for individuals who want to demonstrate they have sufficient understanding of the PRINCE2 methodology and can work effectively as part of a team or with a project management team within a PRINCE2 supporting environment.
+                  </p>
                 </div>
               </div>
             </div>
@@ -89,31 +93,38 @@ const Prince2Foundation = () => {
               fontWeight: "700",
               position: "relative",
               paddingBottom: "20px"
-            }}>ITIL®4 Foundation Certification</h2>
+            }}>PRINCE2® Foundation Certification</h2>
             <div className="col-lg-12 content" >
               <p>
-                ITIL 4 Foundation introduces an end-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services.
+                The Foundation Level certification introduces the PRINCE2 method and aims to confirm that you know and understand the PRINCE2 method well enough to be able to work effectively with, or as a member of, a project management team working within an environment supporting PRINCE2. PRINCE2 Foundation is the prerequisite for higher levels of Project Management certifications, like PRINCE2 Practitioner and PRINCE2 Agile®
               </p>
-              <p>
-                ITIL 4 Foundation is for anyone who needs to understand the key concepts of IT and digital service delivery, and who is interested in helping their organization embrace the new service management culture. It is for professionals at the start of their ITIL 4 journey or people looking to update their existing ITIL knowledge.
-              </p>
-
-              The course will help you to understand:
               <ul style={{ listStyle: "none" }}>
-                <li><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>How modern IT and digital service organizations operate</li>
-                <li><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>How value streams increase speed and efficiency</li>
-                <li>
-                  <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                  How cultural or behavioural principles guide work that benefits the wider organization
+                <li><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                  It is easy to use
                 </li>
                 <li>
                   <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                  How to use commonly-used service management terms and concepts</li>
+                  Adaptable to business and project needs
+                </li>
+                <li>
+                  <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                  Delivers increased agility and eﬃciency whilst reducing costs
+                </li>
+                <li>
+                  <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                  How to use commonly-used service management terms and concepts
+                </li>
+
+                <li>
+                  <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                  It is a best practice, so you select a proven solution
+                </li>
               </ul>
+
 
               <div className="col-sm" style={{ paddingBottom: "10px" }}>
                 <div>
-                  <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Training Syllabus</b></h4>
+                  <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Prerequisite:</b></h4>
                   <ul style={{ listStyle: "none" }}>
                     <li>
                       <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
@@ -128,19 +139,24 @@ const Prince2Foundation = () => {
                     <ul style={{ listStyle: "none" }}>
                       <li>
                         <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        40 questions
+                        Multiple choice questions
+                      </li>
+
+                      <li>
+                        <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        75 questions per paper
+                      </li>
+
+                      <li>
+                        <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Five questions to be trial and not counted in scores
                       </li>
                       <li>
                         <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        Multiple choice
+                        35 marks required (out of 70 available) to pass: 50%
                       </li>
-                      <li>
-                        <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        26 out of 40 marks required to pass (65%)
-                      </li>
-                      <li>
-                        <i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        60 minutes
+                      <li><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        One hour's (60 minutes) duration
                       </li>
                       <li><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                         Closed book
@@ -167,10 +183,10 @@ const Prince2Foundation = () => {
               fontWeight: "700",
               position: "relative",
               paddingBottom: "20px"
-            }}>ITIL®4 Foundation Training</h2>
+            }}>PRINCE2® Foundation Training</h2>
             <div className="col-lg-12 content" style={{ textAlign: "justify" }}>
               <p>
-                ITIL training courses are run by accredited training organizations, in a variety of formats. eNetwoQ is part of ATO in Indonesia. The objective of this course is to provide a foundational level of understanding of the ITIL 4 framework, key elements, concepts and terminologies associated with ITIL service lifecycle, and how it has evolved to adopt modern technologies and operational processes. The course covers all necessary concepts in the service management framework to support candidates studying for the ITIL 4 Foundation Certification Exam.
+                PRINCE2 training courses are run by accredited training organizations, in a variety of formats. eNetwoQ is part of ATO in Indonesia. The objective of this course is to provide the theoretical knowledge of how to plan, manage and deliver projects from start to finish. The PRINCE2 Foundation qualification is intended for project managers and aspiring project managers. The course covers widely used project management method that navigates you through all the essentials for running a successful project.
               </p>
 
               <div>
@@ -267,7 +283,14 @@ const Prince2Foundation = () => {
                         PRINCE2 Foundation Simulation Exam
                       </li>
                     </ul>
+
                   </div>
+                </div>
+                <div>
+                  <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Facilitator :</b></h4>
+                  <p>
+                    PRINCE2 Foundation Approved Trainer and Project management practitioner with over 12 years of experience in industry and holding valid PRINCE2 certification
+                  </p>
                 </div>
               </div>
             </div>
@@ -277,538 +300,71 @@ const Prince2Foundation = () => {
       </section >
 
 
-
-
-
-
       <section id="certifications">
         <div className="container">
           <div className="section-header">
-            <h2 style={{
-              fontFamily: "Montserrat",
-              fontSize: "24px",
-              color: "#54595F",
-              textTransform: "uppercase",
-              fontWeight: "700",
-              position: "relative",
-              paddingBottom: "20px"
-            }}>Project Management Professional (PMP®) <u>Exam Simulations</u></h2>
-            <div className="col-lg-7 content" >
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-              </p>
-
-              <div className="col-sm" style={{ paddingBottom: "10px" }}>
-                <h4 style={{ fontFamily: 'Poppins', fontSize: '24px' }}><b>PMP Exam Requirements:</b></h4>
-                <div style={{ display: 'grid', gridTemplateColumns: "50% 50%" }}>
-                  <div>
-                    <ul style={{ listStyle: "none" }}>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Undergraduate degree (S1) or above</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>36 months leading projects</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>35 hours of project management training</li>
-                      <li><b>OR</b></li>
-                    </ul>
-                  </div>
-                  <div>
-                    <ul style={{ listStyle: "none" }}>
-                      <li>
-                        <i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        Secondary or diploma degree
-                      </li>
-                      <li>
-                        <i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        60 months leading projects
-                      </li>
-                      <li>
-                        <i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        35 hours of project management training
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-        </div>
-      </section >
-
-      <section id="certifications">
-        <div className="container">
-          <div className="section-header">
-            <h4 style={{ fontFamily: "Poppins", fontWeight: "900", color: "#54595F" }}>Our PMP® Products</h4>
-            <div className="row gy-4">
-              <div class="col-md-4">
-                <div class="card mb-3 h-100">
-                  <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                    <h4>PMP® Full Package </h4>
-                    <div className="">Training + Mentoring + Exam Simulations</div>
-                  </div>
-                  <div class="card-body" style={{ textAlign: "center", background: "#F7F7F7" }}>
-                    <button className='btn btn-success'>Popular</button>
-                    <ul style={{ listStyle: "none" }}>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">Lifetime access to high-quality eLearning content</span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 industry case studies on real business problems </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 hands-on projects to perfect the skills learnt </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">5 simulation test papers for self-assessment </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">24x7 learner assistance and support </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card mb-3 h-100">
-                  <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                    <h4>PMP® Training</h4>
-                    <div className="">Training + E-Learning + Quizzes</div>
-                  </div>
-                  <div class="card-body" style={{ textAlign: "center", background: "#F7F7F7" }}>
-                    <ul style={{ listStyle: "none" }}>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">Lifetime access to high-quality eLearning content</span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 industry case studies on real business problems </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 hands-on projects to perfect the skills learnt </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">5 simulation test papers for self-assessment </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">24x7 learner assistance and support </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="col-md-4">
-                <div class="card mb-3 h-100">
-                  <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                    <h4>PMP® Mentoring </h4>
-                    <div className="">Online Mentoring Intensive Class </div>
-                  </div>
-                  <div class="card-body" style={{ textAlign: "center", background: "#F7F7F7" }}>
-                    <ul style={{ listStyle: "none" }}>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">Lifetime access to high-quality eLearning content</span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 industry case studies on real business problems </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 hands-on projects to perfect the skills learnt </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">5 simulation test papers for self-assessment </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">24x7 learner assistance and support </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-md-4">
-                <div className="card mb-3 h-100">
-                  <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                    <h4>PMP® Exam Simulations </h4>
-                    <div className="">Exam Simulations</div>
-                  </div>
-                  <div class="card-body" style={{ textAlign: "center", background: "#F7F7F7" }}>
-                    <ul style={{ listStyle: "none" }}>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">Lifetime access to high-quality eLearning content</span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 industry case studies on real business problems </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">2 hands-on projects to perfect the skills learnt </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">5 simulation test papers for self-assessment </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span className="list-name">24x7 learner assistance and support </span>
-                      </li>
-                    </ul>
-
-
-                    <a href="#" class="btn btn-primary">Try Free Now</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card mb-3 h-100">
-                  <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                    <h4>PMP® Exam </h4>
-                    <div className="">Exam PMP</div>
-                  </div>
-                  <div class="card-body" style={{ textAlign: "center", background: "#F7F7F7" }}>
-                    <ul style={{ listStyle: "none" }}>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name">Lifetime access to high-quality eLearning content </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name">5 simulation test papers for self-assessment</span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name"> 24x7 learner assistance and support </span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card mb-3 h-100">
-                  <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                    <h4>PMP® Corporate Training</h4>
-                    <div className="">Customized to your team's needs </div>
-                  </div>
-                  <div class="card-body" style={{ textAlign: "center", background: "#F7F7F7" }}>
-                    <ul style={{ listStyle: "none" }}>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name">Lifetime access to high-quality eLearning content </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name">2 industry case studies on real business problems </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name">2 hands-on projects to perfect the skills learnt </span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name">5 simulation test papers for self-assessment</span>
-                      </li>
-                      <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                        <span class="list-name"> 24x7 learner assistance and support </span>
-                      </li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Corporate Training</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-        </div>
-      </section >
-
-      <section id="certifications">
-        <div className="container">
-          <div style={{ textAlign: "center" }}>
-            <h4 style={{ fontFamily: "Poppins", fontWeight: "900", color: "#54595F" }}>Get PMP Certificate</h4>
-            <a href="#" class="btn btn-primary">REGISTER NOW</a>
-          </div>
-          <div className="section-header">
             <div className="row gy-4">
 
-              <h4 style={{ fontFamily: "Poppins", fontWeight: "900", color: "#54595F" }}>Why Training with Us</h4>
-              <div className="col-md-6">
-                <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F7F7F7" }}>
-                  <div className="mt-5">
-                    <h5 className="heading"><b>Develop skills for real career growth</b></h5>
+              <h4 style={{ fontFamily: "Poppins", fontWeight: "900", color: "#54595F" }}>Our PRINCE2® Foundation Products</h4>
+              <div className="row">
+                <div class="col-md-6">
+                  <div class="card mb-3 h-100">
+                    <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
+                      <h4>PRINCE2® Foundation Full Package</h4>
+                      <div>Training + Exam</div>
+                    </div>
+                    <div class="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
+                      <ul style={{ listStyle: "none" }}>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Include Exam</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Online by Zoom</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Module Training in Softcopy </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Supporting Document in Softcopy </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Life time consultacy after training (WAG) </span>
+                        </li>
 
-                    <div className="mt-2">
-                      <div className="row">
-                        <ul style={{ listStyle: "none" }}>
-                          <li>
-                            <span className="list-name">
-                              Cutting-edge curriculum designed in guidance with industry and academia to develop job-ready skills
-                            </span>
-                          </li>
-                        </ul>
-                      </div>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">PRINCE2® Foundation Simulation </span>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="col-md-6">
-                <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F7F7F7" }}>
-                  <div className="mt-5">
-                    <h5 className="heading"><b>Learn from experts active in their field</b></h5>
-                    <div className="mt-2">
-                      <div className="row">
-                        <ul style={{ listStyle: "none" }}>
-                          <li>
-                            <span className="list-name">Leading practitioners who bring current best practices and case studies to sessions that fit into your work schedule.</span>
-                          </li>
-                        </ul>
-                      </div>
+                <div class="col-md-6">
+                  <div class="card mb-3 h-100">
+                    <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
+                      <h4>PRINCE2® Foundation Corporate Training</h4>
+                      <div>Customized to your team’s need</div>
                     </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6">
-                <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F7F7F7" }}>
-                  <div className="mt-5">
-                    <h5 className="heading"><b>Learn by working on real-world problems</b></h5>
-                    <div className="mt-2">
-                      <div className="row">
-                        <ul style={{ listStyle: "none" }}>
-                          <li>
-                            <span className="list-name">Cutting-edge curriculum designed in guidance with industry and academia to develop job-ready skills </span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6">
-                <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F7F7F7" }}>
-                  <div className="mt-5">
-                    <h5 className="heading"><b>Structured guidance ensuring learning never stops</b></h5>
-                    <div className="mt-2">
-                      <div className="row">
-                        <ul style={{ listStyle: "none" }}>
-                          <li>
-                            <span className="list-name">24×7 Learning support from mentors and a community of like-minded peers to resolve any conceptual doubts  </span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div className="section-header">
-            <div className="row gy-4">
-              <h4 style={{ fontFamily: "Poppins", fontWeight: "900", color: "#54595F", paddingTop: "25px" }}>Related Courses</h4>
-
-              <div className="col-md-4">
-                <div className="card p-3 mb-2 h-100">
-                  <div className="d-flex justify-content-between">
-                    <div className="d-flex flex-row align-items-center">
-                      <div className="ms-2 c-details">
-                        <button type="button" className="btn btn-warning">Advanced </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <h3 className="heading"><b>Project Management<br />Professional&nbsp;(PMP <sup>&reg;</sup>)</b></h3>
-                    <div className="mt-2">
-                      <div className="row">
-                        <div className="col-sm">
-                          <div className="mt-5 d-flex align-items-center">
-                            <h5 className="review-stat">4.5 &nbsp;</h5>
-                            <div className="small-ratings">
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star-half rating-color"></i>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          80343 Learners
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-md-4">
-                <div className="card p-3 mb-2 h-100">
-                  <div className="d-flex justify-content-between">
-                    <div className="d-flex flex-row align-items-center">
-                      <div className="ms-2 c-details">
-                        <button type="button" className="btn btn-warning">Advanced </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <h3 className="heading"><b>PRINCE2<sup>&reg;</sup>&nbsp;Foundation</b></h3>
-                    <div className="mt-2">
-                      <div className="row">
-                        <div className="col-sm">
-                          <div className="mt-5 d-flex align-items-center">
-                            <h5 className="review-stat">4.5 &nbsp;</h5>
-                            <div className="small-ratings">
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star-half rating-color"></i>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          80343 Learners
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-md-4">
-                <div className="card p-3 mb-2 h-100">
-                  <div className="d-flex justify-content-between">
-                    <div className="d-flex flex-row align-items-center">
-                      <div className="ms-2 c-details">
-                        <button type="button" className="btn btn-warning">Advanced </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <h3 className="heading"><b>PRINCE2<sup>&reg;</sup>&nbsp;Practitioner</b></h3>
-                    <div className="mt-2">
-                      <div className="row">
-                        <div className="col-sm">
-                          <div className="mt-5 d-flex align-items-center">
-                            <h5 className="review-stat">4.5 &nbsp;</h5>
-                            <div className="small-ratings">
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star-half rating-color"></i>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          80343 Learners
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4">
-                <div className="card p-3 mb-2 h-100">
-                  <div className="d-flex justify-content-between">
-                    <div className="d-flex flex-row align-items-center">
-                      <div className="ms-2 c-details">
-                        <button type="button" className="btn btn-warning">Advanced </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <h3 className="heading"><b>Risk Management <br />Professional (PMI-RMP<sup>&reg;</sup>&nbsp;)</b></h3>
-                    <div className="mt-2">
-                      <div className="row">
-                        <div className="col-sm">
-                          <div className="mt-5 d-flex align-items-center">
-                            <h5 className="review-stat">4.5 &nbsp;</h5>
-                            <div className="small-ratings">
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star-half rating-color"></i>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          80343 Learners
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="col-md-4">
-                <div className="card p-3 mb-2 h-100">
-                  <div className="d-flex justify-content-between">
-                    <div className="d-flex flex-row align-items-center">
-                      <div className="ms-2 c-details">
-                        <button type="button" className="btn btn-warning">Advanced </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <h3 className="heading"><b> ITIL<sup>&reg;</sup>&nbsp;4 Foundation</b></h3>
-                    <div className="mt-2">
-                      <div className="row">
-                        <div className="col-sm">
-                          <div className="mt-5 d-flex align-items-center">
-                            <h5 className="review-stat">4.5 &nbsp;</h5>
-                            <div className="small-ratings">
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star-half rating-color"></i>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          80343 Learners
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4">
-                <div className="card p-3 mb-2 h-100">
-                  <div className="d-flex justify-content-between">
-                    <div className="d-flex flex-row align-items-center">
-                      <div className="ms-2 c-details">
-                        <button type="button" className="btn btn-warning">Advanced </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <h3 className="heading"><b>Agile Certificate Practitioner (PMI-ACP<sup>&reg;</sup>)&nbsp;</b></h3>
-                    <div className="mt-2">
-                      <div className="row">
-                        <div className="col-sm">
-                          <div className="mt-5 d-flex align-items-center">
-                            <h5 className="review-stat">4.5 &nbsp;</h5>
-                            <div className="small-ratings">
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star rating-color"></i>
-                              <i className="fa fa-star-half rating-color"></i>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          80343 Learners
-                        </div>
-                      </div>
+                    <div class="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
+                      <ul style={{ listStyle: "none" }}>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Customized Online/Offline</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Module Training in Softcopy</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Supporting Document in Softcopy</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Life time consultacy after training (WAG)</span>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <hr />
           </div>
         </div>
       </section >
