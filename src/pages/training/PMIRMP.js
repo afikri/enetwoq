@@ -197,7 +197,7 @@ const PMIRMP = () => {
               <p>Project and Risk management practitioner with over 7 years of experience in industry and holding valid PMI-RMP certification.</p>
             </div>
             <div>
-            <h4 style={{ fontFamily: 'Poppins', fontSize: '18px', paddingBottom: "15px" }}><b>Our PMI-RMP® Products</b></h4>
+              <h4 style={{ fontFamily: 'Poppins', fontSize: '18px', paddingBottom: "15px" }}><b>Our PMI-RMP® Products</b></h4>
             </div>
 
             <div className="row gy-4">
@@ -205,19 +205,16 @@ const PMIRMP = () => {
                 <div className="col-md-6">
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>PRINCE2® Foundation Full Package</h4>
-                      <div>Training + Exam</div>
+                      <h4>PMI-RMP® Full Package</h4>
+                      <div>Training + Mentoring + Exam Simulation</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Include Exam</span>
+                          <span className="list-name">30 contact hours/PDUs</span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Online by Zoom</span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Module Training in Softcopy </span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Supporting Document in Softcopy </span>
@@ -227,7 +224,10 @@ const PMIRMP = () => {
                         </li>
 
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">PRINCE2® Foundation Simulation </span>
+                          <span className="list-name">PMI LMS Access 1 Year (Member PMI & PMIIC) </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">PMI-RMP® Simulation</span>
                         </li>
                       </ul>
                     </div>
@@ -253,6 +253,84 @@ const PMIRMP = () => {
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Life time consultacy after training (WAG)</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="row gy-4">
+              <div className="row">
+                <div className="col-md-4" style={{ paddingTop: '80px' }}>
+                  <div className="card mb-3 h-100">
+                    <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
+                      <div>PMI-RMP® Training</div>
+                    </div>
+                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
+                      <ul style={{ listStyle: "none" }}>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Course completion certificate </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">30 contact hours/PDUs</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Online by Zoom</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Module Training in Softcopy </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Supporting Document in Softcopy </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-4" style={{ paddingTop: '80px' }}>
+                  <div className="card mb-3 h-100">
+                    <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
+                      <div>PMI-RMP® Mentoring and Coaching</div>
+                    </div>
+                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
+                      <ul style={{ listStyle: "none" }}>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">3x trial PMI-RMP Simulation exam
+
+                          </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">1 session class every week (2-4 hours)</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">
+                            7 sessions in class room </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-4" style={{ paddingTop: '80px' }}>
+                  <div className="card mb-3 h-100">
+                    <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
+                      <div>PMI-RMP® Exam</div>
+                    </div>
+                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
+                      <ul style={{ listStyle: "none" }}>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">eNetwoQ will help participants for PMI-RMP application exam to PMI</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">
+                            eNetwoQ will monitor & control exam candidate
+                          </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">PMI-RMP Simulation Exam Test (1 Year)</span>
                         </li>
                       </ul>
                     </div>
