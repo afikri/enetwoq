@@ -219,68 +219,21 @@ const Prince2AgilePractitioner = () => {
                 <div className="col-sm" style={{ paddingBottom: "10px" }}>
                   <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Facilitator:</b></h4>
                   <p>
-                    PRINCE2 Agile Practitioner Approved Trainer and Project management practitioner with over 12 years of experience in industry and 
+                    PRINCE2 Agile Practitioner Approved Trainer and Project management practitioner with over 12 years of experience in industry and
                     holding valid PRINCE2 Agile certification
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <hr />
+
         </div>
-      </section >
-
-
-      <section id="certifications">
         <div className="container">
           <div className="section-header">
-            <h2 style={{
-              fontFamily: "Montserrat",
-              fontSize: "24px",
-              color: "#54595F",
-              fontWeight: "700",
-              position: "relative",
-              paddingBottom: "20px"
-            }}>PMI-RMP® Exam</h2>
-            <div className="col-lg-12 content" style={{ textAlign: "justify" }}>
-              <p>
-                Our PMI-RMP exam is part of us to help participants fill out the exam application, and the data needed to get the eligibility code as one of the PMI-RMP exam requirements. If participants are exposed to random audit enetwoq will be charged a fee, participants will also get a full 6 months PMI-RMPExam simulation.
-              </p>
-            </div>
-            <div className="col-sm" style={{ paddingBottom: "10px" }}>
-              <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Pre-requisites:</b></h4>
-              <p>PMI-RMP Exam Requirements:</p>
-              <div style={{ display: 'grid', gridTemplateColumns: "50% 50%" }}>
-                <div>
-                  <ul style={{ listStyle: "none" }}>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Secondary degree (high school diploma, associate’s degree, or the global equivalent)</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>36 months of project risk management experience within the last 5 years</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>40 hours of project risk management education</li>
-
-                    <li>
-                      <i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }}></i>
-                      <b>OR</b>
-                    </li>
-
-
-                  </ul>
-                </div>
-                <div>
-                  <ul style={{ listStyle: "none" }}>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Four-year degree (bachelor’s degree or the global equivalent)</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>24 months of project risk management experience within the last 5 years</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>30 hours of project risk management education</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-sm" style={{ paddingBottom: "10px" }}>
-              <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Facilitator:</b></h4>
-              <p>Project and Risk management practitioner with over 7 years of experience in industry and holding valid PMI-RMP certification.</p>
-            </div>
             <div>
-              <h4 style={{ fontFamily: 'Poppins', fontSize: '18px', paddingBottom: "15px" }}><b>Our PMI-RMP® Products</b></h4>
+              <h4 style={{ fontFamily: 'Poppins', fontSize: '18px', paddingBottom: "15px" }}><b>
+                Our PRINCE2 Agile® Practitioner Products
+              </b></h4>
             </div>
 
             <div className="row gy-4">
@@ -288,30 +241,31 @@ const Prince2AgilePractitioner = () => {
                 <div className="col-md-6">
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>PMI-RMP® Full Package</h4>
-                      <div>Training + Mentoring + Exam Simulation</div>
+                      <h4>PRINCE2 Agile® Practitioner Full Package</h4>
+                      <div>Training + Exam</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">30 contact hours/PDUs</span>
+                          <span className="list-name">Include Exam</span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Online by Zoom</span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Supporting Document in Softcopy </span>
+                          <span className="list-name">Module Training in Softcopy </span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">Support Document in Softcopy </span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Life time consultacy after training (WAG) </span>
                         </li>
 
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">PMI LMS Access 1 Year (Member PMI & PMIIC) </span>
+                          <span className="list-name">PRINCE2® Agile Practitioner Simulation</span>
                         </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">PMI-RMP® Simulation</span>
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
@@ -343,87 +297,14 @@ const Prince2AgilePractitioner = () => {
                 </div>
               </div>
             </div>
-
-            <div className="row gy-4">
-              <div className="row">
-                <div className="col-md-4" style={{ paddingTop: '80px' }}>
-                  <div className="card mb-3 h-100">
-                    <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
-                      <div>PMI-RMP® Training</div>
-                    </div>
-                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
-                      <ul style={{ listStyle: "none" }}>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Course completion certificate </span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">30 contact hours/PDUs</span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Online by Zoom</span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Module Training in Softcopy </span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Supporting Document in Softcopy </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4" style={{ paddingTop: '80px' }}>
-                  <div className="card mb-3 h-100">
-                    <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
-                      <div>PMI-RMP® Mentoring and Coaching</div>
-                    </div>
-                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
-                      <ul style={{ listStyle: "none" }}>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">3x trial PMI-RMP Simulation exam
-
-                          </span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">1 session class every week (2-4 hours)</span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">
-                            7 sessions in class room </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4" style={{ paddingTop: '80px' }}>
-                  <div className="card mb-3 h-100">
-                    <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
-                      <div>PMI-RMP® Exam</div>
-                    </div>
-                    <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
-                      <ul style={{ listStyle: "none" }}>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">eNetwoQ will help participants for PMI-RMP application exam to PMI</span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">
-                            eNetwoQ will monitor & control exam candidate
-                          </span>
-                        </li>
-                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">PMI-RMP Simulation Exam Test (1 Year)</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
+
+
       </section >
+
+
+
 
     </div >
   )
