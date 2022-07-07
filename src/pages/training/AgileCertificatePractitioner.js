@@ -157,10 +157,10 @@ const AgileCertificatePractitioner = () => {
               fontWeight: "700",
               position: "relative",
               paddingBottom: "20px"
-            }}>PMI-RMP® Mentoring</h2>
+            }}>PMI-ACP® Mentoring</h2>
             <div className="col-lg-12 content" style={{ textAlign: "justify" }}>
               <p>
-                Our PMI-RMP Mentoring is an activity provided for participants who are preparing to proceed to certification (exams) with a 2-4 hours session meeting, the trainer will help participants develop more effectively with additional knowledge, skills and advice not available in the training. In Mentoring and Coaching activities, participants are required to do the tasks given by the trainer every week and attend the meeting once a week for 7 sessions.
+                Our PMI-ACP Mentoring is an activity provided for participants who are preparing to proceed to certification (exams) with a 2-4 hours session meeting, the trainer will help participants develop more effectively with additional knowledge, skills and advice not available in the training. In Mentoring and Coaching activities, participants are required to do the tasks given by the trainer every week and attend the meeting once a week for 7 sessions.
               </p>
             </div>
           </div>
@@ -179,35 +179,31 @@ const AgileCertificatePractitioner = () => {
               fontWeight: "700",
               position: "relative",
               paddingBottom: "20px"
-            }}>PMI-RMP® Exam</h2>
+            }}>PMI-ACP® Exam</h2>
             <div className="col-lg-12 content" style={{ textAlign: "justify" }}>
               <p>
-                Our PMI-RMP exam is part of us to help participants fill out the exam application, and the data needed to get the eligibility code as one of the PMI-RMP exam requirements. If participants are exposed to random audit enetwoq will be charged a fee, participants will also get a full 6 months PMI-RMPExam simulation.
+                Our PMI-ACP exam is part of us to help participants fill out the exam application, and the data needed to get the eligibility code as one of the PMI-ACP exam requirements. If participants are exposed to random audit enetwoq will be charged a fee, participants will also get a full 6 months PMI-ACP Exam simulation.
               </p>
             </div>
             <div className="col-sm" style={{ paddingBottom: "10px" }}>
               <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Pre-requisites:</b></h4>
-              <p>PMI-RMP Exam Requirements:</p>
-              <div style={{ display: 'grid', gridTemplateColumns: "50% 50%" }}>
+              <p>PMI-ACP Exam Requirements:</p>
+              <div style={{ display: 'grid', gridTemplateColumns: "100%" }}>
                 <div>
                   <ul style={{ listStyle: "none" }}>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Secondary degree (high school diploma, associate’s degree, or the global equivalent)</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>36 months of project risk management experience within the last 5 years</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>40 hours of project risk management education</li>
-
-                    <li>
-                      <i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }}></i>
-                      <b>OR</b>
+                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                      Secondary degree
+                    </li>
+                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                      21 contact hours of training in agile practices
+                    </li>
+                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                      12 months of general project experience within the last 5 years. A current PMP® or PgMP® will satisfy this requirement but is not required to apply for the PMI-ACP.
                     </li>
 
-
-                  </ul>
-                </div>
-                <div>
-                  <ul style={{ listStyle: "none" }}>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Four-year degree (bachelor’s degree or the global equivalent)</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>24 months of project risk management experience within the last 5 years</li>
-                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>30 hours of project risk management education</li>
+                    <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                      8 months of agile project experience within the last 3 years
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -215,10 +211,12 @@ const AgileCertificatePractitioner = () => {
 
             <div className="col-sm" style={{ paddingBottom: "10px" }}>
               <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Facilitator:</b></h4>
-              <p>Project and Risk management practitioner with over 7 years of experience in industry and holding valid PMI-RMP certification.</p>
+              <p>
+                Agile Project Management Practitioner with over 7 years of experience in industry and holding valid PMI ACP certification.
+              </p>
             </div>
             <div>
-              <h4 style={{ fontFamily: 'Poppins', fontSize: '18px', paddingBottom: "15px" }}><b>Our PMI-RMP® Products</b></h4>
+              <h4 style={{ fontFamily: 'Poppins', fontSize: '18px', paddingBottom: "15px" }}><b>Our PMI-ACP® Products</b></h4>
             </div>
 
             <div className="row gy-4">
@@ -226,13 +224,13 @@ const AgileCertificatePractitioner = () => {
                 <div className="col-md-6">
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>PMI-RMP® Full Package</h4>
+                      <h4>PMI-ACP® Full Package</h4>
                       <div>Training + Mentoring + Exam Simulation</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">30 contact hours/PDUs</span>
+                          <span className="list-name">21 contact hours/PDUs</span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Online by Zoom</span>
@@ -241,7 +239,7 @@ const AgileCertificatePractitioner = () => {
                           <span className="list-name">Supporting Document in Softcopy </span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Life time consultacy after training (WAG) </span>
+                          <span className="list-name">Life time consultancy after training (WAG) </span>
                         </li>
 
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
@@ -249,6 +247,9 @@ const AgileCertificatePractitioner = () => {
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">PMI-RMP® Simulation</span>
+                        </li>
+                        <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                          <span className="list-name">7 session Mentoring and Coaching </span>
                         </li>
                       </ul>
                     </div>
@@ -258,7 +259,7 @@ const AgileCertificatePractitioner = () => {
                 <div className="col-md-6">
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>PRINCE2® Foundation Corporate Training</h4>
+                      <h4>PMI-ACP® Corporate Training</h4>
                       <div>Customized to your team’s need</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
@@ -273,7 +274,7 @@ const AgileCertificatePractitioner = () => {
                           <span className="list-name">Supporting Document in Softcopy</span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">Life time consultacy after training (WAG)</span>
+                          <span className="list-name">Life time consultancy after training (WAG)</span>
                         </li>
                       </ul>
                     </div>
@@ -287,7 +288,7 @@ const AgileCertificatePractitioner = () => {
                 <div className="col-md-4" style={{ paddingTop: '80px' }}>
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
-                      <div>PMI-RMP® Training</div>
+                      <div>PMI-ACP® Training</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
@@ -295,7 +296,7 @@ const AgileCertificatePractitioner = () => {
                           <span className="list-name">Course completion certificate </span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">30 contact hours/PDUs</span>
+                          <span className="list-name">21 contact hours/PDUs</span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "15px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">Online by Zoom</span>
@@ -314,12 +315,12 @@ const AgileCertificatePractitioner = () => {
                 <div className="col-md-4" style={{ paddingTop: '80px' }}>
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
-                      <div>PMI-RMP® Mentoring and Coaching</div>
+                      <div>PMI-ACP® Mentoring and Coaching</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">3x trial PMI-RMP Simulation exam
+                          <span className="list-name">3x trial PMI-ACP Simulation exam
 
                           </span>
                         </li>
@@ -338,12 +339,12 @@ const AgileCertificatePractitioner = () => {
                 <div className="col-md-4" style={{ paddingTop: '80px' }}>
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "55px", textAlign: 'center' }}>
-                      <div>PMI-RMP® Exam</div>
+                      <div>PMI-ACP® Exam</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
                       <ul style={{ listStyle: "none" }}>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">eNetwoQ will help participants for PMI-RMP application exam to PMI</span>
+                          <span className="list-name">eNetwoQ will help participants for PMI-ACP application exam to PMI</span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
                           <span className="list-name">
@@ -351,7 +352,7 @@ const AgileCertificatePractitioner = () => {
                           </span>
                         </li>
                         <li style={{ borderBottom: "2px dotted #54595F" }}><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
-                          <span className="list-name">PMI-RMP Simulation Exam Test (1 Year)</span>
+                          <span className="list-name">PMI-ACP Simulation Exam Test (1 Year)</span>
                         </li>
                       </ul>
                     </div>

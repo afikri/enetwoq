@@ -237,7 +237,7 @@ const PMIRMP = () => {
                 <div className="col-md-6">
                   <div className="card mb-3 h-100">
                     <div className="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>PRINCE2® Foundation Corporate Training</h4>
+                      <h4>PMI-RMP® Corporate Training</h4>
                       <div>Customized to your team’s need</div>
                     </div>
                     <div className="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
