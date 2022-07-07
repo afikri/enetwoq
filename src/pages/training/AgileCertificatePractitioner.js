@@ -20,14 +20,14 @@ const AgileCertificatePractitioner = () => {
 
             <h1 style={{ fontFamily: "Open Sans", }}>
               <strong>
-                PMI-RMP® Certification Training Course
+                PMI-ACP® Certification Training Course
               </strong>
             </h1><br />
             <div style={{ width: "800px" }}>
               <div className="col-sm">
                 <div className="mt-5 d-flex align-items-center"
                   style={{ justifyContent: "space-between" }}>
-                  PMI Risk Management Professional (PMI-RMP®)
+                  PMI Agile Certified Practitioner (PMI-ACP®)
                   <div className="small-ratings" style={{ alignContent: "right" }}>
                     <i className="fa fa-star rating-color"></i>
                     <i className="fa fa-star rating-color"></i>
@@ -44,7 +44,7 @@ const AgileCertificatePractitioner = () => {
               <br />
               <div style={{ textAlign: "justify" }}>
                 <p>
-                  PMI-RMP or Project Risk Management Professional is issued by Project Management Institute (PMI), the world’s leading not-for-profit professional membership association for the project, program and portfolio management profession.
+                  PMI-ACP or Agile Certified Practitioner is issued by Project Management Institute (PMI), the world’s leading not-for-profit professional membership association for the project, program and portfolio management profession.
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ const AgileCertificatePractitioner = () => {
               <div className="col-sm" style={{ paddingBottom: "10px" }}>
                 <div style={{ textAlign: "justify", display: 'grid', gridTemplateColumns: "100%" }}>
                   <p>
-                    PMI-RMP Credential is widely recognized by the industry as the standard for Project Risk Management qualification. In this course you will learn about how to manage project risks, mitigate threats and capitalize on opportunities according to best practice and make your project successful. In this capacity, you enhance and protect the needs of your organization.
+                    Agile methodologies are popular approaches in software development, while agile practices include software development by cross-functional and self-managed teams, producing working code at the end of each iteration or sprint. By this training, you will learn Agile methodologies. Besides that, you will become agile-qualified, enhancing your ability to develop and deliver high-quality products and apply agile concepts on the job.
                   </p>
                 </div>
               </div>
@@ -89,33 +89,54 @@ const AgileCertificatePractitioner = () => {
               fontWeight: "700",
               position: "relative",
               paddingBottom: "20px"
-            }}>PMI-RMP® Training</h2>
+            }}>PMI-ACP® Training</h2>
 
             <div className="col-lg-7 content" style={{ textAlign: "justify" }}>
               <p>
-                Our PMI-RMP training helps you to use the best risk management principles to execute projects successfully. You’ll learn to plan for each project with a structured approach that is unique to that project and learn to keep your team focused throughout the lifetime of the project. You’ll also get an introduction into preparing for and taking the risk management examination, and qualify for 30 contact hours of training.
+                PMI-ACP training program is aligned to the 2017 PMI® guidelines and is designed to help you pass your PMI-ACP® exam in the first attempt. The PMI-ACP course covers agile methodologies, tools, and techniques extensively and provides real-life scenarios plugged in throughout the course. The course also covers the concepts of the Agile Practice Guide, a newly added reference material for the PMI-ACP exam.
               </p>
               <div className="col-sm" style={{ paddingBottom: "10px" }}>
                 <h4 style={{ fontFamily: 'Poppins', fontSize: '18px' }}><b>Training Syllabus:</b></h4>
                 <div style={{ display: 'grid', gridTemplateColumns: "50% 50%" }}>
                   <div>
                     <ul style={{ listStyle: "none" }}>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Risk Management Introduction</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Risk Principles and Concepts</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Plan Risk Management</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Identify Risk</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Perform Qualitative Risk Analysis</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Perform Quantitative Risk Analysis</li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Agile Principles & Mindset
 
+
+
+
+
+
+                      </li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Value Driven Delivery
+                      </li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Stakeholder Engagement
+                      </li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Team Performance
+                      </li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Adaptive Planning
+                      </li>
                     </ul>
                   </div>
                   <div>
                     <ul style={{ listStyle: "none" }}>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Perform Quantitative Risk Analysis</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Plan Risk Response</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>Monitor and Control Project Risk</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>PMI-RMP Tips and Tricks</li>
-                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>PMI-RMP Simulation Exam</li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Problem Detection & Resulation
+                      </li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        Continous Improvement
+                      </li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        PMI-ACP Tips and Tricks
+                      </li>
+                      <li><i style={{ fontSize: "20px", paddingRight: "4px", color: "#50d8af", fontWeight: "400", }} className="bi bi-check-circle"></i>
+                        PMI-ACP Simulation Exam
+                      </li>
                     </ul>
                   </div>
                 </div>
