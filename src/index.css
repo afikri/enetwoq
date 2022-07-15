@@ -597,3 +597,21 @@ h6 {
 .scroll-float {
   margin-top: 16px;
 }
+
+.my
+.overlay-on-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: green;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.text-on-hover {
+  background-color: blue;
+}
