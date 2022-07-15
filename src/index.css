@@ -598,13 +598,20 @@ h6 {
   margin-top: 16px;
 }
 
-.my
-.overlay-on-hover {
+.my-container {
+  /* background-color: red; */
+}
+
+.my-container:hover .my-overlay {
+  height: 80%;
+}
+
+.my-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: green;
+  /* background-color: green; */
   color: white;
   overflow: hidden;
   width: 100%;
@@ -612,6 +619,7 @@ h6 {
   transition: .5s ease;
 }
 
-.text-on-hover {
-  background-color: blue;
+.my-text {
+  background-color: #051C2C;
+  height: 200px;
 }

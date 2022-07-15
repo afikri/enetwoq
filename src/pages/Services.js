@@ -11,18 +11,23 @@ const Services = () => {
         <div className="container">
           <div className="row gy-4">
             <div className="col-md-6 my-container">
-              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#FCFCFC" }}>
+              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F0F0F0" }}>
                 <h3 className="heading">Digital Transformation</h3>
-                <div style={{}}>
+                <div>
                   <i className="fa fa-arrow-right fa-2x" style={{
-                    paddingLeft: "220px",
-                    paddingTop:"50px",
-                    margin: "0 auto",
-                    color: "blue"
+                    position: "absolute",
+                    top: "50%",
+                    left: "50%",
+                    color: "#2553FF"
                   }}></i>
                 </div>
-                <div className="overlay-on-hover">
-                  <div className="text-on-hover"></div>
+                <div className="my-overlay">
+                  <div className="my-text">
+                    <p style={{ textAlign: "justify", color:"white"}}>
+                      Digital transformation adopts digital technology to transform services or business to enable a significant improvement in the realization of an organization's objectives. <br />We provide digital solutions enable organization to improve efficiency, increase transparency, cost saving, revenue growth,
+                      better customer experience, better employee engagement and culture and improve competitive advantage.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -33,7 +38,7 @@ const Services = () => {
 
 
             <div className="col-md-6">
-              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#FCFCFC" }}>
+              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F0F0F0" }}>
                 <div className="d-flex justify-content-between">
                   <h3 className="heading">Scrum & Agile Enterprise</h3>
                 </div>
@@ -49,7 +54,7 @@ const Services = () => {
         <div className="container" style={{ marginTop: "30px" }}>
           <div className="row gy-4">
             <div className="col-md-6">
-              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#FCFCFC" }}>
+              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F0F0F0" }}>
                 <div className="d-flex justify-content-between">
                   <h3 className="heading">Project Management Consulting</h3>
                 </div>
@@ -59,7 +64,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#FCFCFC" }}>
+              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F0F0F0" }}>
                 <div className="d-flex justify-content-between">
                   <h3 className="heading">PMO Consulting</h3>
                 </div>
@@ -75,7 +80,7 @@ const Services = () => {
         <div className="container" style={{ marginTop: "30px" }}>
           <div className="row gy-4">
             <div className="col-md-6">
-              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#FCFCFC" }}>
+              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F0F0F0" }}>
                 <div className="d-flex justify-content-between">
                   <h3 className="heading">IT Service Management Consulting</h3>
                 </div>
@@ -86,7 +91,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#FCFCFC" }}>
+              <div className="card p-3 mb-2 h-100" style={{ backgroundColor: "#F0F0F0" }}>
                 <div className="d-flex justify-content-between">
                   <h3 className="heading">IT Security Management Consulting</h3>
                 </div>
