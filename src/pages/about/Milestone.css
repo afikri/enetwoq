@@ -21,8 +21,8 @@
   margin-left: -3px;
 }
 
-/* my-Container around content */
-.my-container {
+/* my-service-Container around content */
+.my-service-container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
@@ -30,7 +30,7 @@
 }
 
 /* The circles on the timeline */
-.my-container::after {
+.my-service-container::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -43,17 +43,17 @@
   z-index: 1;
 }
 
-/* Place the my-container to the left */
+/* Place the my-service-container to the left */
 .left {
   left: 0;
 }
 
-/* Place the my-container to the right */
+/* Place the my-service-container to the right */
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left my-container (pointing right) */
+/* Add arrows to the left my-service-container (pointing right) */
 .left::before {
   content: " ";
   height: 0;
@@ -67,7 +67,7 @@
   border-color: transparent transparent transparent #FEA501;
 }
 
-/* Add arrows to the right my-container (pointing left) */
+/* Add arrows to the right my-service-container (pointing left) */
 .right::before {
   content: " ";
   height: 0;
@@ -81,7 +81,7 @@
   border-color: transparent #00837D transparent transparent;
 }
 
-/* Fix the circle for my-containers on the right side */
+/* Fix the circle for my-service-containers on the right side */
 .right::after {
   left: -16px;
 }
@@ -101,15 +101,15 @@
   left: 31px;
   }
   
-  /* Full-width my-containers */
-  .my-container {
+  /* Full-width my-service-containers */
+  .my-service-container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
   
   /* Make sure that all arrows are pointing leftwards */
-  .my-container::before {
+  .my-service-container::before {
   left: 60px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
@@ -121,7 +121,7 @@
   left: 15px;
   }
   
-  /* Make all right my-containers behave like the left ones */
+  /* Make all right my-service-containers behave like the left ones */
   .right {
   left: 0%;
   }

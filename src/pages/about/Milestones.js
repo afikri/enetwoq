@@ -10,7 +10,7 @@ const Milestones = () => {
       </div>
       <div style={{ background: "grey" }}>
         <div class="timeline" style={{ backgroundColor: "grey" }}>
-          <div class="my-container right">
+          <div class="my-service-container right">
             <div class="content" style={{ backgroundColor: "#00837D" }}>
               <h2>2021</h2>
               <ul>
@@ -29,7 +29,7 @@ const Milestones = () => {
               </ul>
             </div>
           </div>
-          <div class="my-container left">
+          <div class="my-service-container left">
             <div class="content" style={{ backgroundColor: "#FEA501" }}>
               <h2>2019</h2>
               <ul>
@@ -45,7 +45,7 @@ const Milestones = () => {
               </ul>
             </div>
           </div>
-          <div class="my-container right">
+          <div class="my-service-container right">
             <div class="content" style={{ backgroundColor: "#00837D" }}>
               <h2>2014</h2>
               <p>
@@ -53,7 +53,7 @@ const Milestones = () => {
               </p>
             </div>
           </div>
-          <div class="my-container left">
+          <div class="my-service-container left">
             <div class="content" style={{ backgroundColor: "#FEA501" }}>
               <h2>2013</h2>
               <p>
@@ -61,7 +61,7 @@ const Milestones = () => {
               </p>
             </div>
           </div>
-          <div class="my-container right">
+          <div class="my-service-container right">
             <div class="content" style={{ backgroundColor: "#00837D" }}>
               <h2>2012</h2>
               <ul>
