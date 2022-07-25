@@ -62,7 +62,9 @@ const ContactUs = () => {
                       paddingBottom: "20px"
                     }}
                   >Jakarta</h6>
-                  <i className="fa fa-map-marker fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                  <a href="https://goo.gl/maps/vwiBKYRcFx1FKNnp6">
+                    <i className="fa fa-map-marker fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                  </a>
                   <h5>
                     South Quarter Tower A
                     18th Floor Jl. R.A Kartini Kav 8, Cilandak Barat, Jakarta, 12430
@@ -89,7 +91,9 @@ const ContactUs = () => {
                       }}
                     >Depok</h6>
                   </div>
-                  <i className="fa fa-map-marker fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                  <a href='https://goo.gl/maps/5tmgF7NwQhTKaDoQ9'>
+                    <i className="fa fa-map-marker fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                  </a>
                   <h5>
                     Telaga Golf
                     Business Center Milan Avenue Blok R-CE No.19, Sawangan, Depok, 16511
@@ -99,9 +103,9 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
-      <section id="contact">
+      <section id="contact" style={{marginBottom:"40px"}}>
         <div className="container">
           <div className="row contact-info">
             <div className="col-md-3">
@@ -109,7 +113,9 @@ const ContactUs = () => {
                 textAlign: "center"
               }}>
                 <h3>Contact Form</h3>
-                <i className="fa fa-wpforms fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                <a href='http://google.com'>
+                  <i className="fa fa-wpforms fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                </a>
               </div>
             </div>
 
@@ -118,7 +124,9 @@ const ContactUs = () => {
                 textAlign: "center"
               }}>
                 <h3>Email Info</h3>
-                <i className="fa fa-envelope fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                <a href="mailto:info@enetwoq.com">
+                  <i className="fa fa-envelope fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                </a>
               </div>
             </div>
 
@@ -127,8 +135,10 @@ const ContactUs = () => {
                 textAlign: "center"
               }}>
                 <h3>Email Training</h3>
-                <i className="fa fa-line-chart fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
-                <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+                <a href="mailto:training@enetwoq.com">
+                  <i className="fa fa-line-chart fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}>
+                  </i>
+                </a>
               </div>
             </div>
 
@@ -138,7 +148,6 @@ const ContactUs = () => {
               }}>
                 <h3>Telephone</h3>
                 <i className="fa fa-phone fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
-                <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
               </div>
             </div>
           </div>
@@ -169,10 +178,17 @@ const ContactUs = () => {
               <div style={{
                 textAlign: "center"
               }}>
-
-                <h3>Whatsapp</h3>
-                <i className="fa fa-whatsapp fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
-                <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+                <h3 style={{
+                  fontFamily: "Montserrat",
+                  fontSize: "14px",
+                  color: "#54595F",
+                  textTransform: "uppercase",
+                  fontWeight: "700",
+                  position: "relative",
+                }}>Whatsapp</h3>
+                <a href="https://api.whatsapp.com/send?phone=6281295945123">
+                  <i className="fa fa-whatsapp fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                </a>
               </div>
             </div>
 
@@ -180,17 +196,25 @@ const ContactUs = () => {
               <div style={{
                 textAlign: "center"
               }}>
-                <h3>Telegram</h3>
-                <i className="fa fa-telegram fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
-                <p><a href="mailto:info@example.com">info@example.com</a></p>
+                <h3 style={{
+                  fontFamily: "Montserrat",
+                  fontSize: "14px",
+                  color: "#54595F",
+                  textTransform: "uppercase",
+                  fontWeight: "700",
+                  position: "relative",
+                }}>Telegram</h3>
+                <a href="https://t.me/joinchat/">
+                  <i className="fa fa-telegram fa-4x" style={{ marginBottom: "15px", display: "flex", justifyContent: "center", color: "#2575FC" }}></i>
+                </a>
               </div>
             </div>
 
           </div>
         </div>
 
-      </section>
-    </div>
+      </section >
+    </div >
   )
 }
 
