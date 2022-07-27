@@ -5,7 +5,7 @@ import contactus from '../../assets/contactus.png'
 const ContactUs = () => {
   return (
     <div>
-      <div style={{ backgroundColor: "#686868" }}>
+      <div style={{ backgroundColor: "#FFF" }}>
         <img src={contactus} style={{
           backgroundSize: "cover",
           margin: "0",

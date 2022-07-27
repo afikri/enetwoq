@@ -85,51 +85,51 @@ const OurValues = () => {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <div class="card text-white h-100">
-                  <div class="card-body">
+            <div className="row">
+              <div className="col">
+                <div className="h-100">
+                  <div className="card-body" style={{ display: "block", textAlign: "center" }}>
                     <img src={competence} style={{ width: "80%", height: "100%" }} />
-                    <p class="card-text">Competence</p>
+                    <p><b>Competence</b></p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card text-white h-100">
-                  <div class="card-body">
+              <div className="col">
+                <div className="h-100">
+                  <div className="card-body" style={{ display: "block", textAlign: "center" }}>
                     <img src={integrity} style={{ width: "80%", height: "100%" }} />
-                    <p class="card-text">Integrity</p>
+                    <p><b>Integrity</b></p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card text-white h-100">
-                  <div class="card-body">
+              <div className="col">
+                <div className="h-100">
+                  <div className="card-body" style={{ display: "block", textAlign: "center" }}>
                     <img src={nerve} style={{ width: "80%", height: "100%" }} />
-                    <p class="card-text">Nerve</p>
+                    <p><b>Nerve</b></p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card text-white h-100">
-                  <div class="card-body">
+              <div className="col">
+                <div className="h-100">
+                  <div className="card-body" style={{ display: "block", textAlign: "center" }}>
                     <img src={trust} style={{ width: "80%", height: "100%" }} />
-                    <p class="card-text">Trust</p>
+                    <p><b>Trust</b></p>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card text-white h-100">
-                  <div class="card-body">
+              <div className="col">
+                <div className="h-100">
+                  <div className="card-body" style={{ display: "block", textAlign: "center" }}>
                     <img src={agility} style={{ width: "70%", height: "100%" }} />
-                    <p class="card-text">Agility</p>
+                    <p><b>Agility</b></p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
-          <hr />
         </div>
       </section >
     </div>

@@ -4,8 +4,12 @@ import privacy2 from '../../assets/Privacy2.png'
 
 const OurPolicy = () => {
   return (
-    <div>
-      <img src={privacy} style={{ backgroundPosition: "center", backgroundSize: "cover", margin: "0", height: "80%", width: "100%" }} alt="logo" />
+    <div style={{ backgroundColor: "#FFF" }}>
+      <img src={privacy} style={{
+        backgroundPosition: "center", backgroundSize: "cover",
+        marginLeft: "auto", marginRight: "auto", width: "auto",
+        display:"block"
+      }} alt="logo" />
       <div style={{ position: "absolute", color: "yellow", top: "20%", left: "70%", transform: "translate(-50%,-50%)" }}>
         <h1 style={{ marginBottom: "10px", fontSize: "55px", fontWeight: "bolder" }}>Our Privacy Policy</h1>
       </div>
