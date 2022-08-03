@@ -25,7 +25,7 @@ const Navbar = () => {
         <nav className={toggleOpen ? "navbar-mobile" : "navbar"}>
           <ul>
             <li>
-              <Link className="nav-link scrollto" to="/">Home</Link>
+              <Link className="nav-link scrollto" onClick={close} to="/">Home</Link>
             </li>
 
             <li className="dropdown">
@@ -85,10 +85,10 @@ const Navbar = () => {
               <Link className="nav-link scrollto" to="services" onClick={close}>Services</Link>
             </li>
             <li>
-              <Link className="nav-link scrollto" to="events">Events</Link>
+              <Link className="nav-link scrollto" to="events" onClick={close}>Events</Link>
             </li>
             <li>
-              <Link className="nav-link scrollto" to="joinus">Join Us</Link>
+              <Link className="nav-link scrollto" to="joinus" onClick={close}>Join Us</Link>
             </li>
 
 
