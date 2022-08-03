@@ -7,9 +7,6 @@ const Footer = () => {
         <div className="copyright">
           &copy; Copyright <strong>eNetwoq 2022</strong>. All Rights Reserved
         </div>
-        <div className="credits">
-          Designed by <a href="https://linkedin.com/in/afikri">afikri</a>
-        </div>
       </div>
     </footer >
   )

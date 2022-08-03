@@ -1,18 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
-  // const handleClick = (e) => {
-  //   e.preventDefault()
-  //   const target = e.target.getAttribute('href');
-  //   const location = document.querySelector(target).offsetTop;
-
-  //   window.scrollTo({
-  //     left: 0,
-  //     top: location - 64
-  //   });
-  // }
+  const [toggleOpen, setToggleOpen] = useState(false)
+  const close = () => {
+    setToggleOpen(false)
+  }
+  const handleToggle = () => {
+    setToggleOpen(!toggleOpen)
+  }
 
   return (
     <header id="header" className="d-flex align-items-center sticky">
@@ -25,7 +22,7 @@ const Navbar = () => {
           </h1>
         </div>
 
-        <nav id="navbar" className="navbar">
+        <nav className={toggleOpen ? "navbar-mobile" : "navbar"}>
           <ul>
             <li>
               <Link className="nav-link scrollto" to="/">Home</Link>
@@ -85,7 +82,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link className="nav-link scrollto" to="services">Services</Link>
+              <Link className="nav-link scrollto" to="services" onClick={close}>Services</Link>
             </li>
             <li>
               <Link className="nav-link scrollto" to="events">Events</Link>
@@ -108,7 +105,8 @@ const Navbar = () => {
               </ul>
             </li>
           </ul>
-          <i className="bi bi-list mobile-nav-toggle"></i>
+          <i className="bi bi-list mobile-nav-toggle" onClick={handleToggle}></i>
+          <i className="bi bi-x mobile-nav-toggle" onClick={handleToggle}></i>
         </nav>
       </div>
     </header>
