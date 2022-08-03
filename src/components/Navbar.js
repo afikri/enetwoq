@@ -4,9 +4,11 @@ import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [toggleOpen, setToggleOpen] = useState(false)
+  
   const close = () => {
     setToggleOpen(false)
   }
+
   const handleToggle = () => {
     setToggleOpen(!toggleOpen)
   }
