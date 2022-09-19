@@ -317,7 +317,7 @@ const ITIL4Foundation = () => {
                 <div class="col-md-6">
                   <div class="card mb-3 h-100">
                     <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>ITIL® 4 Full Package</h4>
+                      <h4>ITIL® 4 Foundation</h4>
                       <div>Training + Exam</div>
                     </div>
                     <div class="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
@@ -349,7 +349,7 @@ const ITIL4Foundation = () => {
                 <div class="col-md-6">
                   <div class="card mb-3 h-100">
                     <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>ITIL® 4 Corporate Training</h4>
+                      <h4>ITIL® 4 Foundation</h4>
                       <div>Customized to your team’s need</div>
                     </div>
                     <div class="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>

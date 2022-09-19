@@ -46,10 +46,10 @@ const Navbar = () => {
                       <Link to="project-management-professional">Project Management Professional (PMP<sup>&reg;</sup>)</Link>
                     </li>
                     <li>
-                      <Link to="prince2-foundation">PRINCE2 Foundation<sup>&reg;</sup></Link>
+                      <Link to="prince2-foundation">PRINCE2® Foundation</Link>
                     </li>
                     <li>
-                      <Link to="prince2-practitioner">PRINCE2 Practitioner<sup>&reg;</sup></Link>
+                      <Link to="prince2-practitioner">PRINCE2® Practitioner</Link>
                     </li>
                     <li>
                       <Link to="risk-management-professional">Risk Management Professional (PMI-RMP<sup>&reg;</sup>)</Link>
@@ -64,7 +64,7 @@ const Navbar = () => {
                   </Link>
                   <ul>
                     <li>
-                      <Link to="itil-4-foundation">ITIL<sup>&reg;</sup>4 Foundation</Link>
+                      <Link to="itil-4-foundation">ITIL® 4 Foundation</Link>
                     </li>
                   </ul>
                 </li>
@@ -75,9 +75,9 @@ const Navbar = () => {
                     <li>
                       <Link to="agile-certificate-practitioner">Agile Certificate Practitioner (PMI-ACP<sup>&reg;</sup>)</Link></li>
                     <li>
-                      <Link to="prince2-agile-foundation">Prince2 Agile<sup>&reg;</sup> Foundation</Link></li>
+                      <Link to="prince2-agile-foundation">PRINCE2 Agile® Foundation</Link></li>
                     <li>
-                      <Link to="prince2-agile-practitioner">Prince2 Agile<sup>&reg;</sup> Practitioner</Link></li>
+                      <Link to="prince2-agile-practitioner">PRINCE2 Agile® Practitioner</Link></li>
                   </ul>
                 </li>
               </ul>

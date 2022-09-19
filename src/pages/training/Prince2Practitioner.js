@@ -22,7 +22,7 @@ const Prince2Practitioner = () => {
             <div style={{ width: "800px" }}>
               <div className="col-sm">
                 <div className="mt-5 d-flex align-items-center" style={{ justifyContent: "space-between" }}>
-                  PRINCE2® Practitioner
+                  PRINCE2® Practitioner, 6th Edition
                   <div className="small-ratings" >
                     <i className="fa fa-star rating-color"></i>
                     <i className="fa fa-star rating-color"></i>
@@ -310,7 +310,7 @@ const Prince2Practitioner = () => {
                 <div class="col-md-6">
                   <div class="card mb-3 h-100">
                     <div class="card-header text-white" style={{ background: "#54595F", height: "110px", textAlign: 'center' }}>
-                      <h4>PRINCE2® Foundation Full Package</h4>
+                      <h4>PRINCE2® Practitioner Full Package</h4>
                       <div>Training + Exam</div>
                     </div>
                     <div class="card-body" style={{ textAlign: "justify", background: "#F7F7F7" }}>
@@ -370,7 +370,7 @@ const Prince2Practitioner = () => {
             </div>
 
           </div>
-          <b><i>*'PMP and CAPM' are registered marks of the Project Management Institute, Inc.</i></b>
+
 
         </div>
       </section >

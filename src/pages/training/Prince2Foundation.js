@@ -22,7 +22,7 @@ const Prince2Foundation = () => {
             <div style={{ width: "800px" }}>
               <div className="col-sm">
                 <div className="mt-5 d-flex align-items-center" style={{ justifyContent: "space-between" }}>
-                  PRINCE2® Foundation
+                  PRINCE2® Foundation, 6th Edition
                   <div className="small-ratings" >
                     <i className="fa fa-star rating-color"></i>
                     <i className="fa fa-star rating-color"></i>
